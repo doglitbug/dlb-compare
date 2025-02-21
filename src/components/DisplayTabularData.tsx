@@ -14,7 +14,7 @@ export const DisplayTabularData = (props: myProps) => {
             &nbsp;{props.data.length}&nbsp; rows.
             <table className="display">
                 {props.headers && <TableHeader columnHeaders={props.headers}/>}
-                {props.data && <TableBody data={props.data.slice(0, 10)}/>}
+                {props.data && <TableBody data={props.data.slice(0, 20)}/>}
             </table>
         </div>
     );

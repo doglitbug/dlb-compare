@@ -5,7 +5,7 @@ import {confirmFormat} from "./DetectFormat";
 interface myProps {
     setData: (data: string[][]) => void;
     formatIndex: number;
-    formats:any;
+    formats: any;
 }
 
 export const ImportNewData = (props: myProps) => {
@@ -30,10 +30,9 @@ export const ImportNewData = (props: myProps) => {
                 existingData = result.data.splice(1) as string[][];
 
                 //Check data
-                existingData.forEach(input =>{
-                    input.push(confirmFormat(input, formats, formatIndex)?"Yes":"No");
+                existingData.forEach(input => {
+                    input.push(confirmFormat(input, formats, formatIndex) ? "Yes" : "No");
                 });
-                console.table(existingData);
                 setData(existingData);
             },
         });
