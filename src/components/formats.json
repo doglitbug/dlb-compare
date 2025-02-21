@@ -1,0 +1,20 @@
+{
+  "formatData": [
+    {
+      "name": "Unknown format",
+      "regex": null
+    },
+    {
+      "name": "Student ID 3-4 digit number",
+      "regex": "^(\\d{3,4})$"
+    },
+    {
+      "name": "Forename.Surname optional number",
+      "regex": "^([A-Z\\'\\-]+\\.[A-Z\\'\\-]+\\d?)$"
+    },
+    {
+      "name": "Name parts and optional number",
+      "regex": "^([A-Z\\'\\-]+\\d+)$"
+    }
+  ]
+}
