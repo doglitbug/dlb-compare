@@ -9,6 +9,14 @@
       "regex": "^(\\d{3,4})$"
     },
     {
+      "name": "Student ID 4-5 digit number",
+      "regex": "^(\\d{4,5})$"
+    },
+        {
+      "name": "Student ID 5-6 digit number",
+      "regex": "^(\\d{5,6})$"
+    },
+    {
       "name": "Forename.Surname optional number",
       "regex": "^([A-Z\\'\\-]+\\.[A-Z\\'\\-]+\\d?)$"
     },
